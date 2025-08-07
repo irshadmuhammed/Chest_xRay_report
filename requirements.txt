@@ -1,0 +1,13 @@
+pandas
+numpy
+nltk
+torch 
+torchvision 
+torchaudio
+transformers 
+datasets 
+accelerate 
+scikit-learn
+-e git+https://github.com/Maluuba/nlg-eval.git#egg=nlg-eval
+python-dotenv
+-e .
