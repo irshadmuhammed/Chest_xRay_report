@@ -7,4 +7,12 @@ accelerate
 pandas 
 numpy 
 scikit-learn
+python-box
+ensure
+joblib
+ipykernel
+tqdm
+pandas
+numpy
+streamlit
 #-e .

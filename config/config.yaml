@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  image_URL: https://openi.nlm.nih.gov/imgs/collections/NLMCXR_png.tgz?download
+  report_URL: https://openi.nlm.nih.gov/imgs/collections/NLMCXR_reports.tgz?download
+  image_data_file: artifacts/data_ingestion/images.tgz
+  report_data_file: artifacts/data_ingestion/reports.tgz
+  unzip_dir_image: artifacts/data_ingestion/image
+  unzip_dir_report: artifacts/data_ingestion/report
