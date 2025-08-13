@@ -25,7 +25,10 @@ class ConfigurationManager:
             image_data_file=config.image_data_file,
             report_data_file=config.report_data_file,
             unzip_dir_image = config.unzip_dir_image,
-            unzip_dir_report = config.unzip_dir_report
+            unzip_dir_report = config.unzip_dir_report,
+            all_csv_path = config.all_csv_path,
+            train_csv_path = config.train_csv_path,
+            test_csv_path = config.test_csv_path
         )
 
         return data_ingestion_config

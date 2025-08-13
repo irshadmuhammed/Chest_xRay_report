@@ -15,6 +15,7 @@ class DataIngestionTrainingPipeline:
         data_ingestion = DataIngestion(config=data_ingestion_config)
         data_ingestion.start_download_extract()
         data_ingestion.remove_folder()
+        data_ingestion.convert_to_csv()
 
 
 if __name__ == "__main__":

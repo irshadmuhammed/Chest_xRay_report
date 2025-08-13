@@ -9,3 +9,6 @@ data_ingestion:
   report_data_file: artifacts/data_ingestion/reports.tgz
   unzip_dir_image: artifacts/data_ingestion/image
   unzip_dir_report: artifacts/data_ingestion/report
+  all_csv_path: artifacts/data_ingestion/toatal_paired_data.csv
+  train_csv_path: artifacts/data_ingestion/train_data.csv
+  test_csv_path: artifacts/data_ingestion/test_data.csv

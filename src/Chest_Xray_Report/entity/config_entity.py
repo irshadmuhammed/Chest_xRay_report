@@ -10,3 +10,7 @@ class DataIngestionConfig:
     report_data_file: Path
     unzip_dir_image: Path
     unzip_dir_report: Path
+    all_csv_path: Path
+    train_csv_path: Path
+    test_csv_path: Path
+    
